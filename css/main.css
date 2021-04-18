@@ -121,3 +121,9 @@ ul,li{
     display: none;
     text-align: right;
 }
+@media screen and (max-width:767px){
+    .Home .bg-Violet{
+        display: block;
+        width: 100%;
+    }
+}

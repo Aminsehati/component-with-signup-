@@ -33,6 +33,7 @@ function validForm(e){
         if(!input.value){
             ui.showEror(input);
         }else{
+            ui.NotshowEror(input);
             if(input.type =='email' ){
                 if(valid.verifyEmail(input.value)){
                     ui.NotshowEror(input);
@@ -47,7 +48,6 @@ function validForm(e){
                     ui.showEror(input);
                 }
             }
-            ui.NotshowEror(input);
         }
     });
 }
