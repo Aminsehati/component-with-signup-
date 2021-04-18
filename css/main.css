@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import './bootstrap-grid.min.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    text-align: center;
+}
+.d-block{
+    display: block !important;
+}
+.w-100{
+    width: 100%;
+}
+.pt-30{
+    padding-top: 30px;
+}
+.btn{
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.bg-green{
+    background: #77e2b4;
+}
+.bg-Violet{
+    background: #5d54a3;
+}
+.Home{
+    background: #ff7978;
+    min-height: 100vh;
+    position: relative;
+    padding: 140px 0;
+}
+.Home::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg-intro-desktop.png);
+}
+.Home .Home-content h2{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.Home .Home-content h2 span{
+    display: block;
+}
+.Home .Home-content p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 400;
+}
+.Home .Home-login a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    padding: 8px 0;
+}
+.Home-login{
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 30px 0;
+}
+.Home-login #form-login{
+    padding: 0 40px;
+}
+.form-group{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-group .form-control{
+    width: 100%;
+    outline: none;
+    height:48px;
+    padding: 0 15px;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.eror .form-control{
+    border: 1px solid #ff7978;
+    background: url(../images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+.form-control.success{
+    border: 2px solid green !important;
+}
+.eror .Eror{
+    display: block;
+}
+.Eror{
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #ff7d7e;
+    margin-top: 6px;
+    display: none;
+    text-align: right;
+}
